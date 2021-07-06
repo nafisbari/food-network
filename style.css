@@ -1,0 +1,125 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 28px;   
+}
+.top{
+    margin-left: 150px;
+   
+}
+#top-margin{
+    margin-top: 130px;  
+}
+
+.buttongap-1{
+    margin-bottom: 70px;
+}
+
+
+p{
+    line-height: 30px;
+}
+ .flex-disp{
+     display: flex;
+     margin-bottom: 150px;
+     margin-top: 30px;
+ }
+
+ .half-width{
+     width: 50%;
+ }
+ .color{
+     color: tomato;
+ }
+ .button{
+     text-decoration: none;
+     background-image: linear-gradient(to right, orange, tomato);
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+     padding: 17px 37px ;
+     color: whitesmoke;
+
+ }
+
+
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#person-1{
+    width: 80%;
+}
+
+#person-2{
+    width: 40%;
+    margin-left: 280px;
+}
+
+#about-me-margin{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+img{
+    width: 100%;
+}
+
+.recipie-width{
+
+    width: 25%;
+}
+
+.box{
+    width: 70%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 15px;
+    box-shadow: 10px 10px 30px slategray;
+    border-radius: 20px;
+}
+
+#center-align{
+    text-align: center;
+}
+
+.follower-width{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.follower-width p{
+    line-height: 0px;
+}
+.followers-box{
+   width: 70%;
+   padding: 50px;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+    box-shadow: 10px 10px 30px slategray;
+    border-radius: 20px;
+}
+#color-2{
+    color:darkgray ;
+    
+}
+
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(rgb(24, 24, 24), rgb(28, 24, 24));
+  background-size: auto;
+  padding: 20px 80px 80px 80px;
+    color: whitesmoke;
+    
+    
+
+}
+/* background-image: url(images/shapes/footer.jpeg);
+    background-repeat: repeat; */
