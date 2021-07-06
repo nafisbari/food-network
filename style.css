@@ -2,6 +2,37 @@ body{
     font-family: 'Rubik', sans-serif;
     margin: 0;
 }
+
+.flex{
+    display: flex;
+   
+    
+}
+
+.logo{
+    margin-left: 50px;
+}
+.home{
+    text-decoration: none;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.menu .flex{
+    align-content: center;
+}
+.logo{
+    text-decoration: none;
+
+}
+.menu ul li{
+    display: inline;
+}
+
+.menu{
+    align-content: flex-end;
+}
+
 h1{
     font-size: 50px;
     font-weight: 700;
@@ -62,7 +93,7 @@ p{
 
 .about-me img{
     width: 40%;
-    margin-left: 60px;
+    margin-left: 30%;
     
 }
 
@@ -87,7 +118,7 @@ img{
     margin-left: 4%;
     margin-right: 4%;
     padding: 30px 20px 50px;
-    box-shadow: 10px 10px 30px slategray;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
     border-radius: 20px;
     
 }
@@ -114,10 +145,10 @@ img{
    padding: 20px 40px 40px;
    margin-left: auto;
    margin-right: auto;
-    box-shadow: 10px 10px 30px slategray;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
     border-radius: 20px;
 }
-#color-2{
+.color-2{
     color:darkgray ;
     
 }
