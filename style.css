@@ -11,6 +11,7 @@ body{
 
 .logo{
     margin-left: 50px;
+    text-decoration: none;
 }
 .home{
     text-decoration: none;
@@ -21,10 +22,7 @@ body{
 .menu .flex{
     align-content: center;
 }
-.logo{
-    text-decoration: none;
 
-}
 .menu ul li{
     display: inline;
 }
