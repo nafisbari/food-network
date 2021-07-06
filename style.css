@@ -7,10 +7,7 @@ h1{
     font-weight: 700;
     line-height: 28px;   
 }
-.top{
-    margin-left: 150px;
-   
-}
+
 #top-margin{
     margin-top: 130px;  
 }
@@ -22,13 +19,16 @@ h1{
 .top img{
     width: 80%;
 }
+
 p{
     line-height: 30px;
 }
- .flex-disp{
+ .container{
      display: flex;
+     margin: auto;
+     width: fit-content;
      margin-bottom: 150px;
-     margin-top: 30px;
+
  }
 
  .half-width{
@@ -54,36 +54,48 @@ p{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    align-content: center;
 }
 .about-me p{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .about-me img{
     width: 40%;
-    margin-left: 280px;
+    margin-left: 60px;
+    
 }
 
-#about-me-margin{
-    margin-top: 80px;
-    margin-left: 50px;
-}
+
 img{
     width: 100%;
 } 
 
-.recipie-width{
 
-    width: 25%;
+
+.justify{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
 }
-
 .box{
-    width: 70%;
+
+    width: 33%;
     margin-left: 4%;
     margin-right: 4%;
-    padding: 15px;
+    padding: 30px 20px 50px;
     box-shadow: 10px 10px 30px slategray;
     border-radius: 20px;
+    
+}
+.box h2{
+    font-size: 32px;
+}
+ p{
+    font-size: 18px; 
 }
 
 #center-align{
@@ -91,18 +103,17 @@ img{
 }
 
 .follower-width{
-    margin-right: 3%;
-    margin-left: 3%;
+    margin: auto;
+    justify-content: space-around;
 }
 .follower-width p{
     line-height: 0px;
 }
 .followers-box{
    width: 70%;
-   padding: 50px;
-    margin-left: 4%;
-    margin-right: 4%;
-    
+   padding: 20px 40px 40px;
+   margin-left: auto;
+   margin-right: auto;
     box-shadow: 10px 10px 30px slategray;
     border-radius: 20px;
 }
@@ -122,5 +133,3 @@ footer{
     
 
 }
-/* background-image: url(images/shapes/footer.jpeg);
-    background-repeat: repeat; */
